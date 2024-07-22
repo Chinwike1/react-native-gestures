@@ -6,6 +6,7 @@ import {
   Text,
   StatusBar,
   FlatList,
+  Alert,
 } from 'react-native'
 import Swipeable from 'react-native-gesture-handler/Swipeable'
 
@@ -57,10 +58,10 @@ const rightSwipeActions = () => {
   )
 }
 const swipeFromLeftOpen = () => {
-  alert('Swipe from left')
+  Alert.alert('Swipe from left')
 }
 const swipeFromRightOpen = () => {
-  alert('Swipe from right')
+  Alert.alert('Swipe from right')
 }
 const ListItem = ({ text }: { text: any }) => (
   <Swipeable
@@ -68,7 +69,7 @@ const ListItem = ({ text }: { text: any }) => (
     renderRightActions={rightSwipeActions}
     onSwipeableOpen={(direction) => {
       console.log(direction) // "left" | "right"
-      direction === 'left' ? swipeFromLeftOpen : swipeFromRightOpen
+      direction === 'left' ? swipeFromLeftOpen() : swipeFromRightOpen()
     }}
   >
     <View
@@ -85,7 +86,6 @@ const ListItem = ({ text }: { text: any }) => (
 const SwipeGesture = () => {
   return (
     <>
-      <StatusBar />
       <SafeAreaView style={styles.container}>
         <Text
           style={{

@@ -11,6 +11,7 @@ export default function App() {
   return (
     <ThemedView style={styles.container}>
       <ThemedText style={styles.title}>Gestures Screen</ThemedText>
+      {/* render one gesture at a time */}
       <PanGesture />
       {/* <TapGesture /> */}
       {/* <SwipeGesture /> */}
