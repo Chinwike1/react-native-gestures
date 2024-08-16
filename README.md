@@ -1,6 +1,4 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# A Sandbox [Expo](https://expo.dev) application to demonstrate React Native Gesture Handler 2.0
 
 ## Get started
 
@@ -23,28 +21,21 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Expo Go is the easiest option so make sure to download the app before scanning the QR Code.
 
-## Get a fresh project
+## Gestures
 
-When you're ready, run:
+### Pan Gesture
+![Pan Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-pan-gesture-demo.gif)
 
-```bash
-npm run reset-project
-```
+### Tap Gesture
+![Tap Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-tap-gesture-demo.gif)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Swipeable Gesture Component
+![Swipeable Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-swipeable-gesture-demo.gif)
 
-## Learn more
+### Long Press Gesture
+![Long Press Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-pan-gesture-demo.gif)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Pinch/zoom Gesture
+![Pinch/zoom Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-pan-gesture-demo.gif)
