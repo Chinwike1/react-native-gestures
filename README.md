@@ -35,7 +35,7 @@ Expo Go is the easiest option so make sure to download the app before scanning t
 ![Swipeable Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-swipeable-gesture-demo.gif)
 
 ### Long Press Gesture
-![Long Press Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-pan-gesture-demo.gif)
+![Long Press Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-long-press-gesture-demo.gif)
 
 ### Pinch/zoom Gesture
-![Pinch/zoom Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-pan-gesture-demo.gif)
+![Pinch/zoom Gesture Demo](https://blog.logrocket.com/wp-content/uploads/2021/05/React-Native-Gesture-Handler-pinch-gesture-demo.gif)
